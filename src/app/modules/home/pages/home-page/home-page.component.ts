@@ -9,7 +9,7 @@ export class HomePageComponent  {
   imageUrl: string;
 
   constructor() {
-    this.imageUrl = '../../../../../assets/img/img-rick-and-morty-middle-finger.webp';
+    this.imageUrl = 'https://areajugones.sport.es/wp-content/uploads/2020/05/RicKMorty.jpg';
   }
 
 }
