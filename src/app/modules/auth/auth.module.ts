@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AuthLayoutComponent } from './auth-layout/auth-layout.component';
-
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -13,7 +13,8 @@ import { AuthLayoutComponent } from './auth-layout/auth-layout.component';
     AuthLayoutComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     LoginComponent,

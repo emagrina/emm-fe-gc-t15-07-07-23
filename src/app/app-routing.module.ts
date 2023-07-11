@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'characters', component: CharactersPageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'characters/character/:id', component: DetallePageComponent },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
