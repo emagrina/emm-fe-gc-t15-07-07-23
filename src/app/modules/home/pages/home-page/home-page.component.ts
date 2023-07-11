@@ -9,7 +9,7 @@ export class HomePageComponent  {
   imageUrl: string;
 
   constructor() {
-    this.imageUrl = '../../../../assets/img/img-rick-and-morty-middle-finger.webp';
+    this.imageUrl = './assets/img/img-rick-and-morty-middle-finger.webp';
   }
 
 }
