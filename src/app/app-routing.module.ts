@@ -10,6 +10,8 @@ import { HomePageComponent } from '@modules/home/pages/home-page/home-page.compo
 const routes: Routes = [
   { path: 'auth/login', component: LoginComponent },
   { path: 'auth/register', component: RegisterComponent },
+  { path: 'login', redirectTo: 'auth/login', pathMatch: 'full' },
+  { path: 'register', redirectTo: 'auth/register', pathMatch: 'full' },
   { path: '', component: HomePageComponent },
   { path: 'characters', component: CharactersPageComponent },
   { path: 'about', component: AboutPageComponent },
