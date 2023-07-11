@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'emm-fe-gc-t15-07-07-23';
+
+  
 }
